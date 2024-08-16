@@ -1,34 +1,69 @@
 
 
+
 .material_outside{
-    display: flex;
-    height: 10px;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:1.3rem;
+  min-height: 100vh;
+  background-color: rgb(36, 8, 36);
+  flex-direction: column;
 }
 
-button{
+.material_box{
+    display: flex;
+    align-items: center;
+    height: 10px;
+}
+
+.material_btn{
     flex: 1;
     width: 80px;
     cursor: pointer;
     font-size: 2rem;
     border: none;
     background-color: gray;
-    color: purple;
+    color: rgb(167, 44, 146);
     border-radius: 0.2rem;
 }
 
-button:hover{
+.material_btn:hover{
     outline: 2px solid rgb(255, 128, 128);
 }
 
-button:focus{
+.material_btn:focus{
     outline: 2px solid white;
 }
 
-p{    
+#material_para{
+    font-size: 1.3rem;
+    color: rgb(167, 44, 146);
+}
+
+.material_para{    
     width: 100px; 
     text-align: center;
     font-size: 2rem;
     font-weight: bolder;
     color: white;
 }
+
+
+.material_reset_btn{
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding: 0.4rem 0.7rem;
+  background-color: rgb(167, 44, 146);
+  color: white;
+  cursor: pointer;
+  margin-top: 1.6rem;
+  border-radius: 0.3rem;
+}
+
+.material_reset_btn:hover{
+  outline: 2px solid white;
+}
+

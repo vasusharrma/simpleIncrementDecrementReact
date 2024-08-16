@@ -1,10 +1,24 @@
 *{
   box-sizing: border-box;
 }
-.app_outside{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  background-color: rgb(36, 8, 36);
+
+.app_reset_btn{
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding: 0.4rem 0.7rem;
+  background-color: rgb(167, 44, 146);
+  color: white;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+
+.app_reset_btn:hover{
+  outline: 2px solid white;
+}
+
+#app_para{
+  font-size:1.5rem;
+  color:;
 }
