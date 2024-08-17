@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap:1.3rem;
+  gap:2rem;
   min-height: 100vh;
   background-color: rgb(36, 8, 36);
   flex-direction: column;
@@ -38,7 +38,7 @@
 
 #material_para{
     font-size: 1.3rem;
-    color: rgb(167, 44, 146);
+    color: rgb(255, 54, 222);
 }
 
 .material_para{    
@@ -56,14 +56,15 @@
   font-weight: bold;
   letter-spacing: 3px;
   padding: 0.4rem 0.7rem;
-  background-color: rgb(167, 44, 146);
+  background-color: rgb(245, 161, 231);
   color: white;
   cursor: pointer;
-  margin-top: 1.6rem;
+  margin-top: 0.7rem;
   border-radius: 0.3rem;
 }
 
 .material_reset_btn:hover{
+  background-color: rgb(255, 54, 222);
   outline: 2px solid white;
 }
 
